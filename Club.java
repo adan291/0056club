@@ -30,11 +30,10 @@ public class Club
     }
 
     /**
-     * @return The number of members (Membership objects) in
-     *         the club.
+     * Devuelve el numero de miembros que hay
      */
     public int numberOfMembers()
     {
-        return 0;
+        return miembros.size();
     }
 }
