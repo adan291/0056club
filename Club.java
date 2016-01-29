@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class Club
 {
     // Define any necessary fields here ...
+    //Atributo para crear miembros
     private ArrayList<Membership> miembros;
     
     /**
@@ -21,8 +22,7 @@ public class Club
  
 
     /**
-     * Add a new member to the club's list of members.
-     * @param member The member object to be added.
+     * Metodo para añadir miembros
      */
     public void join(Membership member)
     {
